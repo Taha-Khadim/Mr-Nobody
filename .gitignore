@@ -39,3 +39,11 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Local tooling (JDK, SDK bundles — never commit)
+.tools/
+
+# Built app binaries (GitHub file limits; distribute via releases)
+*.apk
+*.aab
+config.bat
